@@ -1,0 +1,14 @@
+.container{
+
+    max-width: 500px !important;
+
+
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.ErrorMsg{
+    color: red;
+}

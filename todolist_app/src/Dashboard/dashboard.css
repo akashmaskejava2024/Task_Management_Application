@@ -1,0 +1,58 @@
+.listContainer {
+
+    width: 20%;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Prevent wrapping to the next line */
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    gap: 1rem;
+    /* Add spacing between cards */
+    padding: 1rem;
+    /* Optional padding around the container */
+}
+
+.card {
+    flex: 0 0 auto;
+    /* Prevent cards from shrinking or stretching */
+    width: 18rem;
+    /* Set a fixed width for the cards */
+}
+
+.card-container::-webkit-scrollbar {
+    height: 8px;
+    /* Customize the height of the scrollbar */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    /* Customize the color of the scrollbar thumb */
+    border-radius: 4px;
+}
+
+.card-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Customize the color of the scrollbar track */
+}
+
+.TaskContianer {
+    width: 80%;
+    height: 80vh;
+    overflow-x: auto;
+}
+
+.list-group {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.form-control task-in-list-input{
+    border: none !important;
+}
